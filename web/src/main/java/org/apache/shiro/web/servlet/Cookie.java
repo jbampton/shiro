@@ -53,7 +53,7 @@ public interface Cookie {
      */
     enum SameSiteOptions {
         /**
-         * Cookies will be sent in all contexts, i.e sending cross-origin is allowed.
+         * Cookies will be sent in all contexts, i.e. sending cross-origin is allowed.
          *
          * <p>None used to be the default value, but recent browser versions made Lax the default value
          * to have reasonably robust defense against some classes of cross-site request forgery (CSRF) attacks.</p>
